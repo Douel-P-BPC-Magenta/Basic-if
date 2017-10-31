@@ -6,7 +6,8 @@
 	<?php
 	$fName = "deb";
 	$sName = "McWhin";
-	$fullname = $fName . " " . $sName;
+	$mName = "dab";
+	$fullname = $fName . " " . $mName . " " . $sName;
 	
 	echo $fullname;
 	echo "<br><br>";
@@ -15,7 +16,7 @@
 	echo "holy moly, thats a great name";
 	}
 	elseif
-	($fullname == "deb McWhin") {
+	($fullname == "deb dab McWhin") {
 	echo "DABDABDAB";
 	}
 	else

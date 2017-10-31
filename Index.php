@@ -9,6 +9,7 @@
 	$fullname = $fName . " " . $sName;
 	
 	echo $fullname;
+	echo "<br><br>";
 	
 	if ($fullname == "bigloser") {
 	echo "holy moly, thats a great name";
